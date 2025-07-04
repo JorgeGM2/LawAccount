@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LawAccount - Servicios</title>
+            <link href="../estilos/footer.css" rel="stylesheet" type="text/css"/>
+        <link href="../estilos/base.css" rel="stylesheet" type="text/css"/>
+        <link href="../estilos/header.css" rel="stylesheet" type="text/css"/>
+        <link href="../estilos/wsp.css" rel="stylesheet" type="text/css"/>
+        <link href="../estilos/servicio.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
+        <!-- AOS - Animate On Scroll CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <header class="header">
+            <div class="container header-flex">
+                <div class="logo">Law<span>Account</span></div>
+                <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+                <nav class="nav" id="navbar">
+                    <a href="index.html">Inicio</a>
+                    <a href="servicios.html" class="active">Servicios</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="servicios-section">
+            <h2 class="servicios-title" data-aos="fade-up">Nuestros Servicios</h2>
+
+            <div class="servicios-grid">
+                <div class="servicio-card" onclick="abrirModal('servicio1')" data-aos="zoom-in" data-aos-delay="100">
+
+                    <img src="../imaganes/asesoria contable.jpg" alt="Servicio 1"/>
+                    <h3>Asesoría Contable</h3>
+                    <p>Soluciones contables adaptadas a tu negocio.</p>
+                </div>
+
+                <div class="servicio-card" onclick="abrirModal('servicio2')" data-aos="zoom-in" data-aos-delay="200">
+
+                    <img src="../imaganes/asesoria tributraria.jpg" alt="Servicio 2"/>
+                    <h3>Tributación</h3>
+                    <p>Gestión inteligente de impuestos y obligaciones.</p>
+                </div>
+
+                <div class="servicio-card" onclick="abrirModal('servicio3')" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="../imaganes/planilla.jpg" alt="Servicio 3"/>
+                    <h3>Planillas</h3>
+                    <p>Automatización y cumplimiento de tus procesos laborales.</p>
+                </div>
+                <div class="servicio-card" onclick="abrirModal('servicio4')" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="../imaganes/conta1.jpg" alt="Servicio 4"/>
+                    <h3>RRHH</h3>
+                    <p>Automatización y cumplimiento de tus procesos laborales.</p>
+                </div>
+                <div class="servicio-card" onclick="abrirModal('servicio5')" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="../imaganes/gestion de tesoreria.jpg" alt="Servicio 5"/>
+                    <h3>Gestion de Tesoreria</h3>
+                    <p>Automatización y cumplimiento de tus procesos laborales.</p>
+                </div>
+                <div class="servicio-card" onclick="abrirModal('servicio6')" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="../imaganes/conta.jpg" alt="Servicio 6"/>
+                    <h3>Asesoria tributaria</h3>
+                    <p>Automatización y cumplimiento de tus procesos laborales.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h2>LawAccount</h2>
+                        <span>Contigo, en cada decisión importante.</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://faceb  ook.com/" title="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z" />
+                            </svg>
+                        </a>
+                        <a href="https://tiktok.com/" title="TikTok">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M16.6 5.82C15.9165 5.03962 15.5197 4.03743 15.48 3H12.48V15.4C12.48 15.4 12.48 15.4 12.48 15.4C12.48 16.38 11.68 17.16 10.72 17.16C9.76 17.16 8.96 16.37 8.96 15.4C8.96 14.43 9.76 13.64 10.72 13.64C10.95 13.64 11.17 13.69 11.38 13.78V10.73C11.1644 10.6982 10.9428 10.6793 10.72 10.67C8.12 10.67 6 12.8 6 15.4C6 18 8.12 20.13 10.72 20.13C13.32 20.13 15.45 18 15.45 15.4V9.1C16.75 10.02 18.27 10.5 19.83 10.5V7.5C19.83 7.5 18 7.5 16.6 5.82Z" />
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/51924969442" title="WhatsApp">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.6 6.32C16.8432 5.55082 15.9362 4.93445 14.9351 4.50325C13.934 4.07205 12.8576 3.83521 11.77 3.80999C10.1994 3.80999 8.67 4.25014 7.34 5.06466C6.01 5.87918 4.9399 7.03149 4.23 8.39999C3.52673 9.7621 3.19353 11.3032 3.27 12.85C3.32 14.03 3.61 15.18 4.11 16.22L3 21L7.88 19.92C8.91 20.37 10.02 20.62 11.14 20.62H11.19C12.7579 20.62 14.2935 20.1755 15.6195 19.337C16.9455 18.4984 18.0062 17.3026 18.663 15.888C19.3198 14.4734 19.5427 12.9047 19.3033 11.3731C19.0639 9.84147 18.3733 8.41519 17.32 7.26999L17.6 6.32ZM11.8 19.16H11.77C10.7708 19.1652 9.78409 18.9431 8.88 18.51L8.64 18.37L5.73 19.06L6.44 16.24L6.28 15.99C5.79656 15.0568 5.5347 14.0171 5.52 12.96C5.51962 11.6868 5.83936 10.4347 6.44253 9.32909C7.0457 8.22349 7.91235 7.29742 8.96255 6.64032C10.0127 5.98322 11.2096 5.61866 12.4349 5.58524C13.6602 5.55183 14.8747 5.85084 15.96 6.45C16.9884 7.0243 17.8592 7.83865 18.4946 8.82749C19.1299 9.81633 19.5098 10.947 19.6 12.12C19.7093 13.4432 19.4523 14.7714 18.8588 15.9528C18.2652 17.1341 17.3575 18.1242 16.2326 18.8102C15.1078 19.4961 13.8108 19.85 12.49 19.83L11.8 19.16Z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-heading">Horario</h3>
+                    <ul class="hours-list">
+                        <li><span class="day">Lun-Vie:</span> 9:00-18:00</li>                       
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-heading">Contacto</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="#ffd700" style="margin-right: 8px;">
+                            <path
+                                d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" />
+                            </svg>
+                            Ucv 43 Lt 26 Zn "C" Ate-Lima
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="#ffd700" style="margin-right: 8px;">
+                            <path
+                                d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z" />
+                            </svg>
+                            info@lawaccount.com
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="#ffd700"
+                                 style="margin-right: 8px; vertical-align: middle;">
+                            <path
+                                d="M6.54 5C6.6 5.89 6.75 6.76 6.99 7.59L5.79 8.79C5.38 7.59 5.12 6.32 5.03 5H6.54ZM16.4 17.02C17.25 17.26 18.12 17.41 19 17.47V18.96C17.68 18.87 16.41 18.61 15.2 18.21L16.4 17.02ZM7.5 3H4C3.45 3 3 3.45 3 4C3 13.39 10.61 21 20 21C20.55 21 21 20.55 21 20V16.51C21 15.96 20.55 15.51 20 15.51C18.76 15.51 17.55 15.31 16.43 14.94C16.3379 14.899 16.2383 14.8784 16.1387 14.8784C15.9328 14.8784 15.7344 14.9578 15.58 15.11L13.21 17.48C10.3754 16.0362 8.00422 13.6649 6.56 10.83L8.89 8.5C9.16 8.23 9.23 7.79 9.09 7.43C8.72 6.31 8.5 5.11 8.5 3.88C8.5 3.33 8.05 2.88 7.5 2.88V3Z" />
+                            </svg>
+                            +51 970620495
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <div style="margin-top: 0.5rem; font-size: 0.9rem;">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Estudio LawAccount. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+        <!-- termina footer -->
+
+        <a href="https://wa.me/51970620495" class="whatsapp-float" target="_blank">
+            <img src="https://icongr.am/fontawesome/whatsapp.svg?size=32&color=ffffff" alt="WhatsApp" />
+        </a>
+
+        <script>
+            AOS.init();
+        </script>
+        <!-- Modal -->
+        <div id="modal-servicio" class="modal">
+            <div class="modal-content">
+                <span class="modal-close" onclick="cerrarModal()">&times;</span>
+                <h2 id="modal-titulo">Título del servicio</h2>
+
+                <!-- Imagen dinámica -->
+                <img id="modal-imagen" src="" alt="Imagen del servicio" class="modal-img" />
+
+                <p id="modal-contenido">Aquí va la descripción detallada del servicio seleccionado.</p>
+
+                <div class="modal-wsp">
+                    <a id="wsp-link" href="https://wa.me/51970620495" 
+                       target="_blank" 
+                       class="btn-wsp-modal">
+                        Consultar por WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- scriptventana flotante -->
+        <script>
+            const servicios = {
+                servicio1: {
+                    titulo: "Asesoría Contable",
+                    contenido: "Ofrecemos un acompañamiento contable completo, desde el registro hasta la presentación de informes, con enfoque en eficiencia y cumplimiento normativo.",
+                    mensajeWsp: "Hola, quisiera más información sobre Asesoría Contable",
+                    imagen: "imagenes/asesoria contable.jpg"
+                },
+                servicio2: {
+                    titulo: "Tributación",
+                    contenido: "Brindamos asesoría tributaria actualizada, planificación fiscal estratégica y gestión de declaraciones ante SUNAT para evitar contingencias.",
+                    mensajeWsp: "Hola, quisiera más información sobre Tributación",
+                    imagen: "imagenes/ofici.jpg"
+                },
+                servicio3: {
+                    titulo: "Asesoría Contable",
+                    contenido: "Ofrecemos un acompañamiento contable completo, desde el registro hasta la presentación de informes, con enfoque en eficiencia y cumplimiento normativo.",
+                    mensajeWsp: "Hola, quisiera más información sobre Asesoría Contable",
+                    imagen: "imagenes/oficina.jpg"
+                },
+                servicio4: {
+                    titulo: "Asesoría Contable",
+                    contenido: "Ofrecemos un acompañamiento contable completo, desde el registro hasta la presentación de informes, con enfoque en eficiencia y cumplimiento normativo.",
+                    mensajeWsp: "Hola, quisiera más información sobre Asesoría Contable",
+                    imagen: "imagenes/planilla.jpg"
+                },
+                servicio5: {
+                    titulo: "Asesoría Contable",
+                    contenido: "Ofrecemos un acompañamiento contable completo, desde el registro hasta la presentación de informes, con enfoque en eficiencia y cumplimiento normativo.",
+                    mensajeWsp: "Hola, quisiera más información sobre Asesoría Contable",
+                    imagen: "imagenes/conta1.jpg"
+                },
+                servicio6: {
+                    titulo: "Asesoría Contable",
+                    contenido: "Ofrecemos un acompañamiento contable completo, desde el registro hasta la presentación de informes, con enfoque en eficiencia y cumplimiento normativo.",
+                    mensajeWsp: "Hola, quisiera más información sobre Asesoría Contable",
+                    imagen: "imagenes/conta.jpg"
+                }
+            };
+
+            function abrirModal(id) {
+                const data = servicios[id];
+
+                if (!data)
+                    return;
+
+                document.getElementById("modal-titulo").innerText = data.titulo;
+                document.getElementById("modal-contenido").innerText = data.contenido;
+
+                // Mostrar imagen
+                const img = document.getElementById("modal-imagen");
+                if (img) {
+                    img.src = data.imagen;
+                    img.alt = `Imagen de ${data.titulo}`;
+                }
+
+                // Enlace WhatsApp
+                document.getElementById("wsp-link").href = `https://wa.me/51970620495?text=${encodeURIComponent(data.mensajeWsp)}`;
+
+                document.getElementById("modal-servicio").style.display = "block";
+            }
+
+            function cerrarModal() {
+                document.getElementById("modal-servicio").style.display = "none";
+            }
+
+            window.onclick = function (event) {
+                const modal = document.getElementById("modal-servicio");
+                if (event.target === modal) {
+                    cerrarModal();
+                }
+            };
+        </script>
+
+
+        <script src="../js/script.js" type="text/javascript"></script>
+        <!-- AOS - Animate On Scroll JS -->
+        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1000, // duración de la animación (ms)
+                once: true      // solo anima una vez
+            });
+        </script>
+    </body>
+</html>

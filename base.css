@@ -1,0 +1,36 @@
+/* === RESET & BASE === */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;  /* Fondo claro agradable */
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;         /* Elimina scroll lateral */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+h1, h2, h3 {
+    color: #0c4789;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}

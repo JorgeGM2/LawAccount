@@ -1,0 +1,58 @@
+/* === NOSOTROS === */
+.nosotros-section {
+    padding: 60px 20px;
+    background-color: #f5f7fa;
+}
+
+.container-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    gap: 40px;
+}
+
+.texto-nosotros {
+    flex: 1 1 500px;
+}
+
+.texto-nosotros h2 {
+    font-size: 2em;
+    color: #0c4789;
+    margin-bottom: 20px;
+}
+
+.texto-nosotros p {
+    font-size: 1.1em;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.texto-nosotros ul {
+    list-style: none;
+    padding: 0;
+}
+
+.texto-nosotros li {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.texto-nosotros li strong {
+    color: #3482bb;
+}
+
+.imagen-nosotros {
+    flex: 1 1 400px;
+    text-align: center;
+}
+
+.imagen-nosotros img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* === SE CIERRA NOSOTROS === */
